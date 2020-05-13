@@ -37,9 +37,9 @@ const CalculateAmount = () => {
           <div className="card-body">
             <div className="form-group">
               <label>Desired amount after percentage deduction:</label>
-              <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                  <span class="input-group-text">$</span>
+              <div className="input-group mb-3">
+                <div className="input-group-prepend">
+                  <span className="input-group-text">$</span>
                 </div>
                 <input
                   name="amount"
@@ -52,7 +52,7 @@ const CalculateAmount = () => {
             </div>
             <div className="form-group">
               <label>Percentage:</label>
-              <div class="input-group mb-3">
+              <div className="input-group mb-3">
                 <input
                   name="percentage"
                   type="number"
@@ -60,8 +60,8 @@ const CalculateAmount = () => {
                   placeholder="0"
                   onChange={handleChange}
                 />
-                <div class="input-group-append">
-                  <span class="input-group-text">%</span>
+                <div className="input-group-append">
+                  <span className="input-group-text">%</span>
                 </div>
               </div>
             </div>
